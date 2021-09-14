@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "python project for web community",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/python_project.scss css/projects/python_project.css -w"
+  },
+  "author": "Harsh",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
